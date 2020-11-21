@@ -8,7 +8,7 @@ public class Main {
         System.out.println(testCalculation(2, 3, 4, 5));
 
         //Задание 4
-        System.out.println(testSum(10 , 5));
+        System.out.println(testSum(10, 5));
 
         //Задание 5
         testPosNeg(10);
@@ -24,18 +24,16 @@ public class Main {
 
     }
 
-
     private static double testCalculation(int a, int b, int c, int d) {
         return a * (b + (1.0 * c / d));
     }
 
     private static boolean testSum(int a, int b) {
         return (a + b) >= 10 && 20 >= (a + b);
-
     }
 
     private static void testPosNeg(int a) {
-        if (a >= 0){
+        if (a >= 0) {
             System.out.println("Число положительное");
         } else {
             System.out.println("Число отрицательное");
@@ -57,8 +55,4 @@ public class Main {
             System.out.println("Год нормальный");
         }
     }
-
-
-
-
 }
